@@ -7,19 +7,15 @@ package map.jiyun.com.test;
 public class Person {
     private int age;
     private String name;
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", sex='" + sex + '\'' +
-                '}';
-    }
-
     private String sex;
     private String love;
+    public void  run(){
+        System.out.println("123456");
+    }
+    public void sleep(){
 
+        System.out.println("abcdefg");
+    }
     public String getName() {
         return name;
     }
