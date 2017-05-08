@@ -15,8 +15,8 @@ public class Person {
     public void sleep(){
 
         System.out.println("abcdefg");
-        
-        
+        System.out.print("我是刘");
+        System.out.println("我要好好学习");
     }
     public String getName() {
         return name;
