@@ -7,6 +7,16 @@ package map.jiyun.com.test;
 public class Person {
     private int age;
     private String name;
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                '}';
+    }
+
     private String sex;
 
     public String getName() {
@@ -32,7 +42,6 @@ public class Person {
     public void setSex(String sex) {
         this.sex = sex;
     }
-
 
 
 }
