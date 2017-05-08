@@ -8,6 +8,7 @@ public class Person {
     private int age;
     private String name;
     private String sex;
+    private String love;
 
     public String getName() {
         return name;
